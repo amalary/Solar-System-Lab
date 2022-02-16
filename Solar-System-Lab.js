@@ -40,3 +40,9 @@ console.log(solarSystem)
 solarSystem[0].ringSystem = true
 console.log(solarSystem[0])
 
+// Question 7 
+
+solarSystem[6].moons = "Oberon"
+
+console.log(solarSystem[6])
+
