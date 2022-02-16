@@ -27,7 +27,7 @@ console.log(solarSystem[7].moons[1]);
 
 solarSystem.push({name: 'Pluto', ringSystem:false, moons:["Charon"]}); 
 
-console.log(solarSystem);
+console.log(solarSystem[8]);
 
 // Question 5 
 
@@ -35,4 +35,8 @@ solarSystem[2].diameter = '7,917.5'
 
 console.log(solarSystem)
 
+//Question 6 
+
+solarSystem[0].ringSystem = true
+console.log(solarSystem[0])
 
