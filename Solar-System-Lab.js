@@ -95,3 +95,8 @@ inclination: 17.15 }}
 // Question 1  
 
 console.log(system.Mercury.mass);
+
+// Question 2 
+
+console.log(system.Venus.eccentricity); 
+
