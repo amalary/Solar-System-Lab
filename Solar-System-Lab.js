@@ -100,3 +100,7 @@ console.log(system.Mercury.mass);
 
 console.log(system.Venus.eccentricity); 
 
+// Question 3 
+
+console.log(system.Jupiter.satellites + system.Saturn.satellites + system.Saturn.satellites + system.Uranus.satellites + system.Neptune.satellites); 
+
