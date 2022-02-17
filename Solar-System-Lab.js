@@ -112,6 +112,18 @@ if(typeof system.Mercury.radiusp == 'string'){
 
 };
 
-
+// Question 5
 
 console.log(system.Mercury.radiusp);
+
+
+// Question 6 
+
+let jupiterMomentum = system.Jupiter.mass * system.Jupiter.velocity;
+
+let plutoMomentum = system.Pluto.mass * system.Pluto.velocity;
+
+differenceMomentum = jupiterMomentum - plutoMomentum; 
+
+console.log(differenceMomentum); 
+
