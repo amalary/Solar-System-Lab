@@ -104,3 +104,12 @@ console.log(system.Venus.eccentricity);
 
 console.log(system.Jupiter.satellites + system.Saturn.satellites + system.Saturn.satellites + system.Uranus.satellites + system.Neptune.satellites); 
 
+// Question 4 
+
+if(typeof system.Mercury.radiusp == 'string'){
+
+    system.Mercury.radiusp = system.Mercury.radiuse
+
+};
+
+console.log(system.Mercury.radiusp);
