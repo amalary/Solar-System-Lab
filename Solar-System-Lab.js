@@ -21,7 +21,7 @@ console.log(solarSystem[7].moons[1]);
 
 // Question 3 
 
-
+solarSystem[1].moons = "Endor"
 
 // Question 4 
 
@@ -46,3 +46,24 @@ solarSystem[6].moons = "Oberon"
 
 console.log(solarSystem[6])
 
+// Question 8 
+
+const solarSystem = [
+    {name: "Mercury", ringSystem: false, moons: [] },
+    { name: "Venus", ringSystem: false, moons: [] },
+    { name: "Earth", ringSystem: false, moons: ["TheMoon"] }, 
+    { name: "Mars", ringSystem: false, moons: ["Phobos", "Deimos"] },
+    { name:"Jupiter", ringSystem: true, moons: ["Europa", "Ganymede", "Io", "Callisto"] },
+    { name:"Saturn", ringSystem: true, moons: ["Titan", "Enceladus", "Rhea", "Mimas"] }, 
+    { name:"Uranus", ringSystem: true, moons: ["Miranda", "Titania", "Ariel", "Umbriel"] },
+    { name: "Neptune", ringSystem: true, moons: ["Triton", "Nereid"] }]; 
+
+
+solarSystem.forEach(function(planet){
+
+    if(planet.ringSystem == true){
+        console.log(planet)
+
+    }
+
+});
